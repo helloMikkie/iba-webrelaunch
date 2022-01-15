@@ -1,0 +1,3 @@
+next.lock/data/** linguist-generated=true
+client.webpack.lock.data linguist-generated=true
+server.webpack.lock.data linguist-generated=true
