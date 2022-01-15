@@ -1,5 +1,6 @@
-import Links from "https://framer.com/m/Links-Qpmn.js@ZzZRkfNfbrCGHPZx8kq4"
-import Language from "https://framer.com/m/Language-eJ6k.js@6QwsGQZdhC5tShPvcnZi"
+import Links from "https://framer.com/m/Links-Qpmn.js@RgGdOgBaiZ0aGuvd7yPR"
+import Language from "https://framer.com/m/Language-eJ6k.js@iVdsdSFevlIOIrlRsSE0"
+import Submenu from "https://framer.com/m/Submenu-Azbc.js@ObaTorgwGBzQ83cY2tNG"
 import Search from "https://framer.com/m/Search-wl2Q.js@8hKeAQLLap6QsyjsXEBU"
 
 import styled from 'styled-components'
@@ -22,6 +23,9 @@ margin-left: 16px;
 `
 
 export const LinksComponent = styled(Links)`
+    max-width: 1232px;
+`
 
-    max-width: 1200px;
+export const SubmenuComponent = styled(Submenu)`
+// max-width: 1232px;
 `

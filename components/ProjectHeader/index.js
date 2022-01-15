@@ -1,5 +1,5 @@
 import NewsletterCard from '../NewsletterCard'
-import {Cover, Brief, Objects,Heading2, Heading3, Text , NewsSection} from './styles'
+import {Cover, Brief, Objects,Heading2, HeadingSpan, Text , NewsSection} from './styles'
 import EventCard from '../EventCard'
 
 
@@ -12,12 +12,10 @@ const ProjectHeader = () => {
         <Cover style={Style}></Cover>
         <Brief style={Style}></Brief>
         <Objects>
-            <Heading3>Herausforderungen</Heading3>
-            <Text>Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. </Text>
-            <Heading3>
-                Ansatz
-            </Heading3>
-            <Text>Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. </Text>
+            
+            <Text><HeadingSpan>Herausforderungen</HeadingSpan>Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. </Text>
+           
+            <Text> <HeadingSpan>Ansatz </HeadingSpan>Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. </Text>
         </Objects>
 
         

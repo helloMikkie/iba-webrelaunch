@@ -11,4 +11,5 @@ export const Wrapper = styled.section`
     gap: 16px; 
     overflow: scroll; 
     padding-left: 32px; 
+    padding-bottom: 48px;
 `

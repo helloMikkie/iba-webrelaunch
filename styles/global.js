@@ -17,18 +17,17 @@ grid-gap: 16px;
 `
 
 export const SectionLayout = css`
-  padding: 32px;
+  padding: 16px;
   max-width: 1200px; 
   margin: 0 auto; 
 `
 
 export const H2 = css`
   text-transform: uppercase; 
- 
   color: #404040;
   text-align: center;
-  font-size: 1.6rem; 
-  letter-spacing: 0.03em;
+  font-size: 2rem; 
+  letter-spacing: 0.06em;
   line-height: 1.2; 
   font-family: Euclid Circular A semibold;
 `
@@ -37,15 +36,16 @@ text-transform: uppercase;
 font-size: 1.125rem; 
 color: #404040;
 text-align: center;
-letter-spacing: 0.03em;
-line-height: 1.2; 
+letter-spacing: 0.06em;
+line-height: 1.25; 
 font-family: Euclid Circular A semibold;
 `
 
 export const P = css`
 font-family: Euclid Circular A Regular;
 font-weight: 400;
-letter-spacing: 0.03em;
-font-size: 1.125rem;
-line-height: 1.5; 
+letter-spacing: 0.02em;
+font-size: 1.375rem;
+line-height: 1.6; 
+color: #404040;
 `

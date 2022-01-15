@@ -1,7 +1,8 @@
 
-import {LanguageComponent,Header, LinksComponent, SearchComponent} from "./styles"
+import {LanguageComponent,Header, LinksComponent, SearchComponent, SubmenuComponent} from "./styles"
 const Menu = () => {
     return(
+        <>
         <Header>
   
         <LanguageComponent />
@@ -11,6 +12,8 @@ const Menu = () => {
         
  
         </Header>
+        <SubmenuComponent style={Style} />
+        </>
     )
 }
 
