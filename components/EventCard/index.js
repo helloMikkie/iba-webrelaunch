@@ -1,6 +1,6 @@
 import {Card, Grid} from "./styles"
 
-const EventCard = ({image, title, subtitle, label, text}) => {
+const EventCard = ({image, title, subtitle, label, text, variant}) => {
     return(
         <>
         <Card 
@@ -10,6 +10,7 @@ const EventCard = ({image, title, subtitle, label, text}) => {
             subtitle={subtitle }
             label={ label}
             text={text }
+            variant={variant}
         />
     
         

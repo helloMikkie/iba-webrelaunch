@@ -1,8 +1,9 @@
-import {Card, Grid} from "./styles"
+import {Card, Default_bg} from "./styles"
 
 const MediaCard = ({image, title, subtitle, description}) => {
     return(
         <>
+        {/* <Default_bg></Default_bg> */}
         <Card 
         style={Style}
         image={image}

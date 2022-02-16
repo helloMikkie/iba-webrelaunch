@@ -8,6 +8,7 @@ import ProjectCard from "../components/ProjectCard"
 import TeamCard from "../components/TeamCard"
 import MediaCard from "../components/MediaCard"
 import EventCard from "../components/EventCard"
+import CalendarCard from "../components/CalendarCard"
 
 // A Smart Component from Framer
 import Toggle from "https://framer.com/m/Toggle-B5iT.js@X94mtocAj5XithxLESme"
@@ -39,6 +40,7 @@ export default function Home() {
                 subtitle="Ein Zusammentreffen in zwei Teilen"
                 label="Online Ausstellung"
                 text="Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Curabitur blandit tempus porttitor. Donec sed odio dui. Maecenas sed diam eget risus varius blandit sit amet non magna."/>
+            <CalendarCard variant="Variant 2" />
           
             <Footer />
     

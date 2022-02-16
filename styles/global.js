@@ -13,7 +13,7 @@ export const GridLayout = css`
 padding: 0 16px; 
 display: grid; 
 grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-grid-gap: 16px; 
+grid-gap: 48px; 
 `
 
 export const SectionLayout = css`

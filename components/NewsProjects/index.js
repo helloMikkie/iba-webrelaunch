@@ -16,7 +16,7 @@ const NewsProjects = () => {
             />
 
             <MediaCard />
-            <EventCard />
+            <EventCard variant="Label" />
             </Wrapper>
         </>
     )
