@@ -8,7 +8,8 @@ import {H2, H3,P} from '../../styles/global'
 
 
 export const Cover = styled(ProjectCover)`
-margin-bottom: 32px; 
+margin-bottom: 32px;
+
 `
 
 export const Brief = styled(ProjectBrief)`
@@ -33,6 +34,8 @@ export const HeadingSpan = styled.span`
 ${H3}
 margin-right: 16px; 
 color: #404040; 
+
+
 
 
 `

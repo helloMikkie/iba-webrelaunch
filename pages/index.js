@@ -41,6 +41,7 @@ export default function Home() {
                 label="Online Ausstellung"
                 text="Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Curabitur blandit tempus porttitor. Donec sed odio dui. Maecenas sed diam eget risus varius blandit sit amet non magna."/>
             <CalendarCard variant="Variant 2" />
+            <CalendarCard variant="Variant 2" bgColor="yellow" />
           
             <Footer />
     

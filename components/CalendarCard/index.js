@@ -1,9 +1,9 @@
 import {Calendar, Container} from "./styles"
 
-const CalendarCard = ({adresse, beschreibung, datum, format, institution, thumbnail, thumbnailVisible, titel, uhrzeit, variant}) => {
+const CalendarCard = ({adresse, beschreibung, datum, format, institution, thumbnail, thumbnailVisible, titel, uhrzeit, variant, bgColor}) => {
     return(
         <>
-        <Container>
+        <Container bg={bgColor}>
         <Calendar 
             style={Style}
             adresse={ adresse}
@@ -16,6 +16,7 @@ const CalendarCard = ({adresse, beschreibung, datum, format, institution, thumbn
             titel={titel}
             uhrzeit={uhrzeit}
             variant={variant}
+           
         />
     
     </Container>
