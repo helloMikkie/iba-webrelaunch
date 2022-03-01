@@ -10,6 +10,7 @@ import MediaCard from "../components/MediaCard"
 import EventCard from "../components/EventCard"
 import CalendarCard from "../components/CalendarCard"
 import Filter from "../components/Project_filter"
+import EventHeading from "../components/EventHeadings"
 
 // A Smart Component from Framer
 import Toggle from "https://framer.com/m/Toggle-B5iT.js@X94mtocAj5XithxLESme"
@@ -44,6 +45,13 @@ export default function Home() {
                 text="Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Curabitur blandit tempus porttitor. Donec sed odio dui. Maecenas sed diam eget risus varius blandit sit amet non magna."/>
             <CalendarCard variant="Variant 2" />
             <CalendarCard variant="Variant 2" bgColor="yellow" />
+            <EventHeading year="2022" month="April" visible></EventHeading>
+            <CalendarCard variant="Variant 2" />
+            <CalendarCard variant="Variant 2" />
+            <EventHeading year="2021" month="Mai"></EventHeading>
+            <CalendarCard variant="Variant 2" />
+            <EventHeading year="2021" month="Januar" visible></EventHeading>
+            <CalendarCard variant="Variant 2" />
           
             <Footer />
     
