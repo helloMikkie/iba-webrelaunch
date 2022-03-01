@@ -9,6 +9,7 @@ import TeamCard from "../components/TeamCard"
 import MediaCard from "../components/MediaCard"
 import EventCard from "../components/EventCard"
 import CalendarCard from "../components/CalendarCard"
+import Filter from "../components/Project_filter"
 
 // A Smart Component from Framer
 import Toggle from "https://framer.com/m/Toggle-B5iT.js@X94mtocAj5XithxLESme"
@@ -25,6 +26,7 @@ export default function Home() {
             <>
         
             <Menu></Menu>
+            <Filter></Filter>
             <Download />
             <ProjectCard />
             <TeamCard />
