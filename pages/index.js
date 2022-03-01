@@ -11,6 +11,7 @@ import EventCard from "../components/EventCard"
 import CalendarCard from "../components/CalendarCard"
 import Filter from "../components/Project_filter"
 import EventHeading from "../components/EventHeadings"
+import Cookie_Consent from "../components/Cookie_Consent"
 
 // A Smart Component from Framer
 import Toggle from "https://framer.com/m/Toggle-B5iT.js@X94mtocAj5XithxLESme"
@@ -52,6 +53,7 @@ export default function Home() {
             <CalendarCard variant="Variant 2" />
             <EventHeading year="2021" month="Januar" visible></EventHeading>
             <CalendarCard variant="Variant 2" />
+            <Cookie_Consent></Cookie_Consent>
           
             <Footer />
     
